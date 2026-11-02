@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Awesome Wallpapers — Free PC & Phone Wallpapers</title>
+  <meta name="description" content="A curated collection of free PC and phone wallpapers. Preview and download in one click." />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+
+  <!-- Tailwind (CDN — swap to a build step later if you want) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          fontFamily: { sans: ["Inter", "ui-sans-serif", "system-ui"] },
+          colors: {
+            surface: { 900: "#0b0d12", 800: "#11141b", 700: "#191d27" },
+            accent: { DEFAULT: "#7c6cf6", soft: "#a99df9" },
+          },
+        },
+      },
+    };
+  </script>
+
+  <!-- Lucide icons -->
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <style>
+    /* Scrollbar */
+    ::-webkit-scrollbar { width: 10px; height: 10px; }
+    ::-webkit-scrollbar-track { background: #0b0d12; }
+    ::-webkit-scrollbar-thumb { background: #2a2f3d; border-radius: 8px; }
+    ::-webkit-scrollbar-thumb:hover { background: #3a4055; }
+
+    /* Masonry: JS-distributed flex columns (Pinterest-style) */
+
+    .thumb { aspect-ratio: auto; }
+
+    /* Card hover */
+    .card img { transition: transform .45s cubic-bezier(.2,.8,.2,1), opacity .35s ease; }
+    .card:hover img { transform: scale(1.04); }
+
+    /* Filter chips */
+    .filter-chip {
+      display: inline-flex; align-items: center; gap: .35rem;
+      padding: .4rem .9rem; border-radius: 9999px; font-size: .8125rem; font-weight: 500;
+      color: #a1a1aa; background: rgba(255,255,255,.04);
+      border: 1px solid rgba(255,255,255,.08);
+      transition: all .2s ease; cursor: pointer;
+    }
+    .filter-chip:hover { color: #fff; background: rgba(255,255,255,.08); }
+    .filter-chip.active {
+      color: #fff; background: rgba(124,108,246,.18);
+      border-color: rgba(124,108,246,.55);
+      box-shadow: 0 0 0 3px rgba(124,108,246,.12);
+    }
+
+    /* Lightbox */
+    #lightbox { backdrop-filter: blur(12px); }
+    .fade-in { animation: fadeIn .25s ease both; }
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(6px);} to { opacity: 1; transform: none; } }
+  </style>
+</head>
+<body class="bg-surface-900 text-zinc-200 font-sans antialiased selection:bg-accent/40">
+
+  <!-- ===== Header ===== -->
+  <header class="sticky top-0 z-40 border-b border-white/5 bg-surface-900/80 backdrop-blur-xl">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6">
+      <div class="flex flex-wrap items-center gap-3 pt-3 sm:h-16 sm:flex-nowrap sm:gap-4 sm:pt-0">
+        <a href="#" class="flex items-center gap-2.5 shrink-0">
+          <span class="grid size-9 place-items-center rounded-xl bg-accent/15 text-accent ring-1 ring-accent/30">
+            <i data-lucide="wallpaper" class="size-5"></i>
+          </span>
+          <span class="text-lg font-extrabold tracking-tight text-white">Awesome<span class="text-accent">Wallpapers</span></span>
+        </a>
+
+        <!-- Search (full row on mobile, inline on sm+) -->
+        <div class="relative order-last w-full pb-1.5 sm:order-none sm:ml-auto sm:w-auto sm:max-w-md sm:flex-1 sm:pb-0">
+          <i data-lucide="search" class="pointer-events-none absolute left-3.5 top-1/2 size-4 -translate-y-1/2 text-zinc-500"></i>
+          <input id="search" type="search" placeholder="Search wallpapers…"
+                 autocomplete="off"
+                 class="w-full rounded-xl border border-white/10 bg-surface-800 py-2.5 pl-10 pr-4 sm:pr-10 text-sm placeholder-zinc-500 outline-none transition
+                        focus:border-accent/60 focus:ring-2 focus:ring-accent/30" />
+          <kbd class="absolute right-3 top-1/2 hidden -translate-y-1/2 rounded-md border border-white/10 bg-surface-700 px-1.5 py-0.5 text-[10px] text-zinc-500 sm:block">/</kbd>
+        </div>
+      </div>
+
+      <!-- Category filter -->
+      <div class="flex items-center gap-2 pb-3" id="filters">
+        <button data-filter="all"      class="filter-chip">All</button>
+        <button data-filter="PC"       class="filter-chip"><i data-lucide="monitor" class="size-3.5"></i> PC</button>
+        <button data-filter="Phone"    class="filter-chip"><i data-lucide="smartphone" class="size-3.5"></i> Phone</button>
+        <span id="count" class="ml-auto text-xs text-zinc-500"></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== Grid ===== -->
+  <main class="mx-auto max-w-7xl px-4 sm:px-6 py-8">
+    <div id="grid" class="flex items-start gap-4"></div>
+
+    <div id="empty" class="hidden py-24 text-center">
+      <i data-lucide="image-off" class="mx-auto size-10 text-zinc-600"></i>
+      <p class="mt-4 text-zinc-400">No wallpapers match your search.</p>
+    </div>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="border-t border-white/5 py-8 text-center text-sm text-zinc-500">
+    <p>Built with <span class="text-zinc-300">♥</span> · Wallpapers are for personal use only</p>
+  </footer>
+
+  <!-- ===== Lightbox ===== -->
+  <div id="lightbox" class="fixed inset-0 z-50 hidden items-center justify-center bg-black/80 p-4 sm:p-8">
+    <button id="lb-close" class="absolute left-4 top-4 grid size-10 place-items-center rounded-full bg-white/10 text-white transition hover:bg-white/20" title="Close (Esc)">
+      <i data-lucide="x" class="size-5"></i>
+    </button>
+    <figure class="max-h-full max-w-full">
+      <img id="lb-img" class="mx-auto max-h-[80vh] max-w-full rounded-xl object-contain shadow-2xl" alt="" />
+      <figcaption class="mt-4 flex flex-wrap items-center justify-center gap-3">
+        <span id="lb-title" class="text-sm font-medium text-zinc-300"></span>
+        <a id="lb-open" href="#" target="_blank" rel="noopener"
+           class="inline-flex items-center gap-1.5 rounded-lg bg-accent px-3.5 py-2 text-sm font-semibold text-white transition hover:bg-accent/85">
+          <i data-lucide="download" class="size-4"></i> Download
+        </a>
+      </figcaption>
+    </figure>
+  </div>
+
+  <div id="toast" class="pointer-events-none fixed bottom-6 left-1/2 z-50 -translate-x-1/2 rounded-xl bg-white text-sm font-semibold text-black px-4 py-2.5 opacity-0 transition-opacity"></div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
