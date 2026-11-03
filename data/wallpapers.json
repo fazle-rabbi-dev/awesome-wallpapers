@@ -184,12 +184,244 @@
     "width": 720
   },
   {
+    "name": "【哲风壁纸】房间-温馨",
+    "title": "【哲风壁纸】房间 温馨",
+    "src": "wallpapers/pc/%E3%80%90%E5%93%B2%E9%A3%8E%E5%A3%81%E7%BA%B8%E3%80%91%E6%88%BF%E9%97%B4-%E6%B8%A9%E9%A6%A8.png",
+    "category": "PC",
+    "height": 2160,
+    "width": 3840
+  },
+  {
+    "name": "【哲风壁纸】小镇-山脉-村庄",
+    "title": "【哲风壁纸】小镇 山脉 村庄",
+    "src": "wallpapers/pc/%E3%80%90%E5%93%B2%E9%A3%8E%E5%A3%81%E7%BA%B8%E3%80%91%E5%B0%8F%E9%95%87-%E5%B1%B1%E8%84%89-%E6%9D%91%E5%BA%84.png",
+    "category": "PC",
+    "height": 2160,
+    "width": 3840
+  },
+  {
+    "name": "【哲风壁纸】夏日海边-日系插画",
+    "title": "【哲风壁纸】夏日海边 日系插画",
+    "src": "wallpapers/pc/%E3%80%90%E5%93%B2%E9%A3%8E%E5%A3%81%E7%BA%B8%E3%80%91%E5%A4%8F%E6%97%A5%E6%B5%B7%E8%BE%B9-%E6%97%A5%E7%B3%BB%E6%8F%92%E7%94%BB.png",
+    "category": "PC",
+    "height": 2250,
+    "width": 4000
+  },
+  {
+    "name": "【哲风壁纸】传统房屋-和风",
+    "title": "【哲风壁纸】传统房屋 和风",
+    "src": "wallpapers/pc/%E3%80%90%E5%93%B2%E9%A3%8E%E5%A3%81%E7%BA%B8%E3%80%91%E4%BC%A0%E7%BB%9F%E6%88%BF%E5%B1%8B-%E5%92%8C%E9%A3%8E.png",
+    "category": "PC",
+    "height": 1080,
+    "width": 1920
+  },
+  {
+    "name": "【哲风壁纸】云朵-大树-山脉",
+    "title": "【哲风壁纸】云朵 大树 山脉",
+    "src": "wallpapers/pc/%E3%80%90%E5%93%B2%E9%A3%8E%E5%A3%81%E7%BA%B8%E3%80%91%E4%BA%91%E6%9C%B5-%E5%A4%A7%E6%A0%91-%E5%B1%B1%E8%84%89.png",
+    "category": "PC",
+    "height": 1632,
+    "width": 2912
+  },
+  {
+    "name": "【哲风壁纸】云-向日葵-护眼",
+    "title": "【哲风壁纸】云 向日葵 护眼",
+    "src": "wallpapers/pc/%E3%80%90%E5%93%B2%E9%A3%8E%E5%A3%81%E7%BA%B8%E3%80%91%E4%BA%91-%E5%90%91%E6%97%A5%E8%91%B5-%E6%8A%A4%E7%9C%BC.png",
+    "category": "PC",
+    "height": 2160,
+    "width": 3840
+  },
+  {
+    "name": "【哲风壁纸】云-动画片-动画电影",
+    "title": "【哲风壁纸】云 动画片 动画电影",
+    "src": "wallpapers/pc/%E3%80%90%E5%93%B2%E9%A3%8E%E5%A3%81%E7%BA%B8%E3%80%91%E4%BA%91-%E5%8A%A8%E7%94%BB%E7%89%87-%E5%8A%A8%E7%94%BB%E7%94%B5%E5%BD%B1.png",
+    "category": "PC",
+    "height": 1080,
+    "width": 1920
+  },
+  {
+    "name": "【哲风壁纸】乡村小屋-乡间小路",
+    "title": "【哲风壁纸】乡村小屋 乡间小路",
+    "src": "wallpapers/pc/%E3%80%90%E5%93%B2%E9%A3%8E%E5%A3%81%E7%BA%B8%E3%80%91%E4%B9%A1%E6%9D%91%E5%B0%8F%E5%B1%8B-%E4%B9%A1%E9%97%B4%E5%B0%8F%E8%B7%AF.png",
+    "category": "PC",
+    "height": 2304,
+    "width": 4096
+  },
+  {
+    "name": "【哲风壁纸】cat-猫",
+    "title": "【哲风壁纸】cat 猫",
+    "src": "wallpapers/pc/%E3%80%90%E5%93%B2%E9%A3%8E%E5%A3%81%E7%BA%B8%E3%80%91cat-%E7%8C%AB.png",
+    "category": "PC",
+    "height": 2160,
+    "width": 3854
+  },
+  {
+    "name": "【哲风壁纸】4K-动漫-海边村庄",
+    "title": "【哲风壁纸】4K 动漫 海边村庄",
+    "src": "wallpapers/pc/%E3%80%90%E5%93%B2%E9%A3%8E%E5%A3%81%E7%BA%B8%E3%80%914K-%E5%8A%A8%E6%BC%AB-%E6%B5%B7%E8%BE%B9%E6%9D%91%E5%BA%84.png",
+    "category": "PC",
+    "height": 1920,
+    "width": 2560
+  },
+  {
+    "name": "yami-yami-14",
+    "title": "Yami Yami 14",
+    "src": "wallpapers/pc/yami-yami-14.jpg",
+    "category": "PC",
+    "height": 816,
+    "width": 1456
+  },
+  {
+    "name": "yami-yami-12",
+    "title": "Yami Yami 12",
+    "src": "wallpapers/pc/yami-yami-12.jpg",
+    "category": "PC",
+    "height": 816,
+    "width": 1456
+  },
+  {
+    "name": "yami-yami-11",
+    "title": "Yami Yami 11",
+    "src": "wallpapers/pc/yami-yami-11.jpg",
+    "category": "PC",
+    "height": 816,
+    "width": 1456
+  },
+  {
+    "name": "undefined - Imgur",
+    "title": "Undefined   Imgur",
+    "src": "wallpapers/pc/undefined%20-%20Imgur.jpg",
+    "category": "PC",
+    "height": 1688,
+    "width": 3000
+  },
+  {
+    "name": "toolxox.com-qXsRt",
+    "title": "Toolxox.com QXsRt",
+    "src": "wallpapers/pc/toolxox.com-qXsRt.jpg",
+    "category": "PC",
+    "height": 1960,
+    "width": 3469
+  },
+  {
+    "name": "thumb-1920-1341419",
+    "title": "Thumb 1920 1341419",
+    "src": "wallpapers/pc/thumb-1920-1341419.png",
+    "category": "PC",
+    "width": 1920,
+    "height": 1076
+  },
+  {
+    "name": "thumb-1920-1301574",
+    "title": "Thumb 1920 1301574",
+    "src": "wallpapers/pc/thumb-1920-1301574.jpg",
+    "category": "PC",
+    "height": 1080,
+    "width": 1920
+  },
+  {
+    "name": "retro-synthwave-neon-palm-sunset-desktop-wallpaper",
+    "title": "Retro Synthwave Neon Palm Sunset Desktop Wallpaper",
+    "src": "wallpapers/pc/retro-synthwave-neon-palm-sunset-desktop-wallpaper.jpg",
+    "category": "PC",
+    "height": 2160,
+    "width": 3840
+  },
+  {
+    "name": "R8bKInpG-fond-decran-foret-84",
+    "title": "R8bKInpG Fond Decran Foret 84",
+    "src": "wallpapers/pc/R8bKInpG-fond-decran-foret-84.png",
+    "category": "PC",
+    "width": 2912,
+    "height": 1632
+  },
+  {
     "name": "mklgustafsson-among-trees-forest",
     "title": "Mklgustafsson Among Trees Forest",
     "src": "wallpapers/pc/mklgustafsson-among-trees-forest.png",
     "category": "PC",
     "width": 2048,
     "height": 1152
+  },
+  {
+    "name": "milad-fakurian-nY14Fs8pxT8-unsplash",
+    "title": "Milad Fakurian NY14Fs8pxT8 Unsplash",
+    "src": "wallpapers/pc/milad-fakurian-nY14Fs8pxT8-unsplash.jpg",
+    "category": "PC",
+    "height": 6000,
+    "width": 8000
+  },
+  {
+    "name": "magical-fairycore-forest-desktop-wallpaper",
+    "title": "Magical Fairycore Forest Desktop Wallpaper",
+    "src": "wallpapers/pc/magical-fairycore-forest-desktop-wallpaper.jpg",
+    "category": "PC",
+    "height": 2160,
+    "width": 3840
+  },
+  {
+    "name": "lofi-aesthetic-window-plants-night-desktop-wallpaper-4k",
+    "title": "Lofi Aesthetic Window Plants Night Desktop Wallpaper 4k",
+    "src": "wallpapers/pc/lofi-aesthetic-window-plants-night-desktop-wallpaper-4k.jpg",
+    "category": "PC",
+    "height": 2160,
+    "width": 3840
+  },
+  {
+    "name": "lawn_forest_mountains_144578_1920x1080",
+    "title": "Lawn Forest Mountains 144578 1920x1080",
+    "src": "wallpapers/pc/lawn_forest_mountains_144578_1920x1080.jpg",
+    "category": "PC",
+    "height": 1080,
+    "width": 1920
+  },
+  {
+    "name": "jernej-graj-n44KHcbp1_E-unsplash",
+    "title": "Jernej Graj N44KHcbp1 E Unsplash",
+    "src": "wallpapers/pc/jernej-graj-n44KHcbp1_E-unsplash.jpg",
+    "category": "PC",
+    "height": 3957,
+    "width": 5938
+  },
+  {
+    "name": "ivan-ragozin-QqD5zsQL16U-unsplash",
+    "title": "Ivan Ragozin QqD5zsQL16U Unsplash",
+    "src": "wallpapers/pc/ivan-ragozin-QqD5zsQL16U-unsplash.jpg",
+    "category": "PC",
+    "height": 3640,
+    "width": 5464
+  },
+  {
+    "name": "ivan-cheremisin-KYyEWpoK3g4-unsplash",
+    "title": "Ivan Cheremisin KYyEWpoK3g4 Unsplash",
+    "src": "wallpapers/pc/ivan-cheremisin-KYyEWpoK3g4-unsplash.jpg",
+    "category": "PC",
+    "height": 4160,
+    "width": 6240
+  },
+  {
+    "name": "illustration-tourist-attraction-city",
+    "title": "Illustration Tourist Attraction City",
+    "src": "wallpapers/pc/illustration-tourist-attraction-city.jpg",
+    "category": "PC",
+    "height": 3072,
+    "width": 5376
+  },
+  {
+    "name": "cozy-cabin-in-the-woods-desktop-wallpaper",
+    "title": "Cozy Cabin In The Woods Desktop Wallpaper",
+    "src": "wallpapers/pc/cozy-cabin-in-the-woods-desktop-wallpaper.jpg",
+    "category": "PC",
+    "height": 2160,
+    "width": 3840
+  },
+  {
+    "name": "cozy wallpaper car, sky, nature",
+    "title": "Cozy wallpaper car, sky, nature",
+    "src": "wallpapers/pc/cozy%20wallpaper%20car%2C%20sky%2C%20nature.jpeg",
+    "category": "PC",
+    "height": 1720,
+    "width": 3000
   },
   {
     "name": "catppuccin-wallpaper3",
@@ -208,12 +440,60 @@
     "width": 1920
   },
   {
+    "name": "backiee-298232-landscape",
+    "title": "Backiee 298232 Landscape",
+    "src": "wallpapers/pc/backiee-298232-landscape.jpg",
+    "category": "PC",
+    "height": 2880,
+    "width": 5120
+  },
+  {
+    "name": "backiee-296179-landscape",
+    "title": "Backiee 296179 Landscape",
+    "src": "wallpapers/pc/backiee-296179-landscape.jpg",
+    "category": "PC",
+    "height": 2160,
+    "width": 3840
+  },
+  {
+    "name": "backiee-295970-landscape",
+    "title": "Backiee 295970 Landscape",
+    "src": "wallpapers/pc/backiee-295970-landscape.jpg",
+    "category": "PC",
+    "height": 2160,
+    "width": 3840
+  },
+  {
+    "name": "backiee-293974-landscape",
+    "title": "Backiee 293974 Landscape",
+    "src": "wallpapers/pc/backiee-293974-landscape.jpg",
+    "category": "PC",
+    "height": 2160,
+    "width": 3840
+  },
+  {
+    "name": "backiee-271769-landscape",
+    "title": "Backiee 271769 Landscape",
+    "src": "wallpapers/pc/backiee-271769-landscape.jpg",
+    "category": "PC",
+    "height": 2880,
+    "width": 5120
+  },
+  {
     "name": "backiee-184861-landscape",
     "title": "Backiee 184861 Landscape",
     "src": "wallpapers/pc/backiee-184861-landscape.jpg",
     "category": "PC",
     "height": 2160,
     "width": 3840
+  },
+  {
+    "name": "backiee-120438-landscape",
+    "title": "Backiee 120438 Landscape",
+    "src": "wallpapers/pc/backiee-120438-landscape.jpg",
+    "category": "PC",
+    "height": 2880,
+    "width": 5120
   },
   {
     "name": "among-trees-dadaws-small-cliffs",
@@ -264,6 +544,46 @@
     "width": 3840
   },
   {
+    "name": "aesthetic-sunset-field-desktop-wallpaper-4k",
+    "title": "Aesthetic Sunset Field Desktop Wallpaper 4k",
+    "src": "wallpapers/pc/aesthetic-sunset-field-desktop-wallpaper-4k.jpg",
+    "category": "PC",
+    "height": 2160,
+    "width": 3840
+  },
+  {
+    "name": "aesthetic-cityscape-sunset-bridge-desktop-wallpaper-4k",
+    "title": "Aesthetic Cityscape Sunset Bridge Desktop Wallpaper 4k",
+    "src": "wallpapers/pc/aesthetic-cityscape-sunset-bridge-desktop-wallpaper-4k.jpg",
+    "category": "PC",
+    "height": 2160,
+    "width": 3840
+  },
+  {
+    "name": "aesthetic-cityscape-sunrise-desktop-wallpaper-4k",
+    "title": "Aesthetic Cityscape Sunrise Desktop Wallpaper 4k",
+    "src": "wallpapers/pc/aesthetic-cityscape-sunrise-desktop-wallpaper-4k.jpg",
+    "category": "PC",
+    "height": 2160,
+    "width": 3840
+  },
+  {
+    "name": "aesthetic-cityscape-morning-view-desktop-wallpaper-4k",
+    "title": "Aesthetic Cityscape Morning View Desktop Wallpaper 4k",
+    "src": "wallpapers/pc/aesthetic-cityscape-morning-view-desktop-wallpaper-4k.jpg",
+    "category": "PC",
+    "height": 2160,
+    "width": 3840
+  },
+  {
+    "name": "a-c-TKPAw6j_Ag8-unsplash",
+    "title": "A C TKPAw6j Ag8 Unsplash",
+    "src": "wallpapers/pc/a-c-TKPAw6j_Ag8-unsplash.jpg",
+    "category": "PC",
+    "height": 3573,
+    "width": 5359
+  },
+  {
     "name": "4224706",
     "title": "4224706",
     "src": "wallpapers/pc/4224706.jpg",
@@ -272,12 +592,28 @@
     "width": 1280
   },
   {
+    "name": "3459936",
+    "title": "3459936",
+    "src": "wallpapers/pc/3459936.jpg",
+    "category": "PC",
+    "height": 1441,
+    "width": 2560
+  },
+  {
     "name": "3-mountain-moon(1)",
     "title": "3 Mountain Moon(1)",
     "src": "wallpapers/pc/3-mountain-moon(1).jpg",
     "category": "PC",
     "height": 4320,
     "width": 7680
+  },
+  {
+    "name": "26512917",
+    "title": "26512917",
+    "src": "wallpapers/pc/26512917.jpg",
+    "category": "PC",
+    "height": 720,
+    "width": 1280
   },
   {
     "name": "26512908",
@@ -296,12 +632,44 @@
     "width": 1536
   },
   {
+    "name": "25750805",
+    "title": "25750805",
+    "src": "wallpapers/pc/25750805.png",
+    "category": "PC",
+    "width": 1920,
+    "height": 1206
+  },
+  {
+    "name": "2151850155",
+    "title": "2151850155",
+    "src": "wallpapers/pc/2151850155.jpg",
+    "category": "PC",
+    "height": 1144,
+    "width": 2000
+  },
+  {
     "name": "1638744",
     "title": "1638744",
     "src": "wallpapers/pc/1638744.jpg",
     "category": "PC",
     "height": 2160,
     "width": 3840
+  },
+  {
+    "name": "1366774",
+    "title": "1366774",
+    "src": "wallpapers/pc/1366774.png",
+    "category": "PC",
+    "width": 2912,
+    "height": 1632
+  },
+  {
+    "name": "1283581",
+    "title": "1283581",
+    "src": "wallpapers/pc/1283581.jpg",
+    "category": "PC",
+    "height": 1080,
+    "width": 1920
   },
   {
     "name": "1-synthwave-84",
