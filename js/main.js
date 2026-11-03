@@ -36,6 +36,24 @@ function setupObserver() {
   document.querySelectorAll("#grid img[data-src]").forEach((img) => state.observer.observe(img));
 }
 
+/* ---------- Thumbnails (grid only) ---------- */
+// The grid is ~300px wide per column, so we ask wsrv.nl for a 640px WebP
+// instead of downloading the multi-MB original. Lightbox + Download still
+// point at the original file, so full quality is only fetched on click.
+const THUMB_WIDTH = 640;
+const PROXY_HOST = "https://wsrv.nl/";
+
+// wsrv.nl can only reach a public origin — never localhost/file://.
+const USE_PROXY =
+  (location.protocol === "http:" || location.protocol === "https:") &&
+  !["localhost", "127.0.0.1", "0.0.0.0", "[::1]", ""].includes(location.hostname);
+
+function thumbURL(src) {
+  if (!USE_PROXY) return src; // local dev → show original, proxy would 404
+  const absolute = new URL(src, location.href).href;
+  return `${PROXY_HOST}?url=${encodeURIComponent(absolute)}&w=${THUMB_WIDTH}&output=webp&q=78`;
+}
+
 /* ---------- Card template ---------- */
 // Very tall images (phone wallpapers, ~9:20) get their *preview* cropped to 9:16
 // so masonry rows stay a sane height. The download link serves the original file.
@@ -50,7 +68,8 @@ function cardHTML(item) {
   <figure data-name="${item.title.toLowerCase()}" data-category="${item.category}"
           class="card group relative overflow-hidden rounded-2xl bg-surface-700 ring-1 ring-white/5
                  transition hover:ring-accent/40 hover:shadow-[0_8px_40px_rgba(124,108,246,.15)] cursor-zoom-in">
-    <img data-src="${item.src}" alt="${item.title}" loading="lazy"
+    <img data-src="${thumbURL(item.src)}" data-full="${item.src}" alt="${item.title}" loading="lazy" decoding="async"
+         onerror="if(!this.dataset.failed){this.dataset.failed=1;this.src=this.dataset.full;}"
          style="${preview}"
          class="${tall ? "object-cover" : "object-cover"} w-full opacity-0 transition-opacity duration-300" />
 
