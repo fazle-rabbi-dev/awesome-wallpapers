@@ -4,6 +4,8 @@ A free, open wallpaper collection — PC & phone — with a static preview/downl
 
 ![Site](https://img.shields.io/badge/stack-HTML%20%7C%20Tailwind%20%7C%20Lucide-7c6cf6)
 
+**Live:** https://fazle-rabbi-dev.github.io/awesome-wallpapers/
+
 ## Features
 - 🖼 **Masonry layout** (Pinterest-style) via CSS columns
 - ⚡ **Lazy loading** — only images near the viewport are fetched (IntersectionObserver, 400px pre-fetch margin)
@@ -40,13 +42,3 @@ awesome-wallpapers/
 python -m http.server 8765     # then open http://localhost:8765
 ```
 (Any static server works — `fetch()` of the manifest needs one, `file://` won't.)
-
-## Deploy (GitHub Pages)
-1. Push everything to `main` (including `data/wallpapers.json`)
-2. Repo → **Settings → Pages** → Source: `main` branch, `/ (root)` → Save
-3. Site lives at `https://<username>.github.io/awesome-wallpapers/`
-
-> Tip: to auto-regenerate the manifest on push, add a GitHub Action that runs `node generate.js` and commits `data/wallpapers.json` — happy to write one if you want it.
-
-## License
-Wallpapers are for personal use. Code: MIT.
