@@ -24,6 +24,30 @@
     "width": 736
   },
   {
+    "name": "f3a4f74fe7c39843eb998839d7fe5ee7",
+    "title": "F3a4f74fe7c39843eb998839d7fe5ee7",
+    "src": "wallpapers/phone/f3a4f74fe7c39843eb998839d7fe5ee7.jpg",
+    "category": "Phone",
+    "height": 1308,
+    "width": 736
+  },
+  {
+    "name": "f09487484035cdfc7caec50fcddfd9a7",
+    "title": "F09487484035cdfc7caec50fcddfd9a7",
+    "src": "wallpapers/phone/f09487484035cdfc7caec50fcddfd9a7.jpg",
+    "category": "Phone",
+    "height": 1252,
+    "width": 704
+  },
+  {
+    "name": "eab504d0c4c7865f7af69705a115d7b8",
+    "title": "Eab504d0c4c7865f7af69705a115d7b8",
+    "src": "wallpapers/phone/eab504d0c4c7865f7af69705a115d7b8.jpg",
+    "category": "Phone",
+    "height": 1313,
+    "width": 736
+  },
+  {
     "name": "e78f739619747908f75965e16390bbaa",
     "title": "E78f739619747908f75965e16390bbaa",
     "src": "wallpapers/phone/e78f739619747908f75965e16390bbaa.jpg",
@@ -40,11 +64,27 @@
     "width": 736
   },
   {
+    "name": "e00fcef2a816bb7d8960bd58b2415470",
+    "title": "E00fcef2a816bb7d8960bd58b2415470",
+    "src": "wallpapers/phone/e00fcef2a816bb7d8960bd58b2415470.jpg",
+    "category": "Phone",
+    "height": 1308,
+    "width": 736
+  },
+  {
     "name": "df76559a1175497fb193599ee53de58f",
     "title": "Df76559a1175497fb193599ee53de58f",
     "src": "wallpapers/phone/df76559a1175497fb193599ee53de58f.jpg",
     "category": "Phone",
     "height": 1307,
+    "width": 736
+  },
+  {
+    "name": "d3b690c6c52f41b5bec60f25faf458a4",
+    "title": "D3b690c6c52f41b5bec60f25faf458a4",
+    "src": "wallpapers/phone/d3b690c6c52f41b5bec60f25faf458a4.jpg",
+    "category": "Phone",
+    "height": 1472,
     "width": 736
   },
   {
@@ -54,6 +94,14 @@
     "category": "Phone",
     "height": 1280,
     "width": 720
+  },
+  {
+    "name": "cbea0970090a377203cdf7a4f6b9c0c5",
+    "title": "Cbea0970090a377203cdf7a4f6b9c0c5",
+    "src": "wallpapers/phone/cbea0970090a377203cdf7a4f6b9c0c5.jpg",
+    "category": "Phone",
+    "height": 1308,
+    "width": 736
   },
   {
     "name": "c2c41d265ed1f98c42e1e67763b010c6",
@@ -104,6 +152,22 @@
     "width": 736
   },
   {
+    "name": "832c8c60d28caec137c311dd6ec807a4",
+    "title": "832c8c60d28caec137c311dd6ec807a4",
+    "src": "wallpapers/phone/832c8c60d28caec137c311dd6ec807a4.jpg",
+    "category": "Phone",
+    "height": 1472,
+    "width": 736
+  },
+  {
+    "name": "82b35ed88d6e621bb38b8c5e63ab665a",
+    "title": "82b35ed88d6e621bb38b8c5e63ab665a",
+    "src": "wallpapers/phone/82b35ed88d6e621bb38b8c5e63ab665a.jpg",
+    "category": "Phone",
+    "height": 1308,
+    "width": 736
+  },
+  {
     "name": "7fdbf663c3eabeaae19c47f97675c5fc",
     "title": "7fdbf663c3eabeaae19c47f97675c5fc",
     "src": "wallpapers/phone/7fdbf663c3eabeaae19c47f97675c5fc.jpg",
@@ -112,11 +176,59 @@
     "width": 736
   },
   {
+    "name": "7a270d2e65dcf96aa443d6c9078dc609",
+    "title": "7a270d2e65dcf96aa443d6c9078dc609",
+    "src": "wallpapers/phone/7a270d2e65dcf96aa443d6c9078dc609.jpg",
+    "category": "Phone",
+    "height": 1000,
+    "width": 561
+  },
+  {
+    "name": "75fc276638cd7dd33bae8094d3149dd8",
+    "title": "75fc276638cd7dd33bae8094d3149dd8",
+    "src": "wallpapers/phone/75fc276638cd7dd33bae8094d3149dd8.jpg",
+    "category": "Phone",
+    "height": 1200,
+    "width": 600
+  },
+  {
+    "name": "71dce24c96df87c4a0df92428b02c179",
+    "title": "71dce24c96df87c4a0df92428b02c179",
+    "src": "wallpapers/phone/71dce24c96df87c4a0df92428b02c179.jpg",
+    "category": "Phone",
+    "height": 1308,
+    "width": 736
+  },
+  {
+    "name": "6a96358f3100aa5bedaedbd2ccefcf1b",
+    "title": "6a96358f3100aa5bedaedbd2ccefcf1b",
+    "src": "wallpapers/phone/6a96358f3100aa5bedaedbd2ccefcf1b.jpg",
+    "category": "Phone",
+    "height": 1202,
+    "width": 736
+  },
+  {
     "name": "5d74c493c27827f0365c15c421dfd13d",
     "title": "5d74c493c27827f0365c15c421dfd13d",
     "src": "wallpapers/phone/5d74c493c27827f0365c15c421dfd13d.jpg",
     "category": "Phone",
     "height": 1308,
+    "width": 736
+  },
+  {
+    "name": "4e35fa0a282dc3e4d46f7652d527a65e",
+    "title": "4e35fa0a282dc3e4d46f7652d527a65e",
+    "src": "wallpapers/phone/4e35fa0a282dc3e4d46f7652d527a65e.jpg",
+    "category": "Phone",
+    "height": 1349,
+    "width": 736
+  },
+  {
+    "name": "46db72c608927d64e4dfd08bf2ab01a9",
+    "title": "46db72c608927d64e4dfd08bf2ab01a9",
+    "src": "wallpapers/phone/46db72c608927d64e4dfd08bf2ab01a9.jpg",
+    "category": "Phone",
+    "height": 1309,
     "width": 736
   },
   {
@@ -320,6 +432,14 @@
     "width": 1920
   },
   {
+    "name": "shougan_castle",
+    "title": "Shougan Castle",
+    "src": "wallpapers/pc/shougan_castle.png",
+    "category": "PC",
+    "width": 1920,
+    "height": 1080
+  },
+  {
     "name": "retro-synthwave-neon-palm-sunset-desktop-wallpaper",
     "title": "Retro Synthwave Neon Palm Sunset Desktop Wallpaper",
     "src": "wallpapers/pc/retro-synthwave-neon-palm-sunset-desktop-wallpaper.jpg",
@@ -334,6 +454,14 @@
     "category": "PC",
     "width": 2912,
     "height": 1632
+  },
+  {
+    "name": "nature-landscape-hawaii-with-digital-art-style",
+    "title": "Nature Landscape Hawaii With Digital Art Style",
+    "src": "wallpapers/pc/nature-landscape-hawaii-with-digital-art-style.jpg",
+    "category": "PC",
+    "height": 3840,
+    "width": 4800
   },
   {
     "name": "mklgustafsson-among-trees-forest",
@@ -400,12 +528,84 @@
     "width": 6240
   },
   {
+    "name": "interstellar_wallpaper",
+    "title": "Interstellar Wallpaper",
+    "src": "wallpapers/pc/interstellar_wallpaper.png",
+    "category": "PC",
+    "width": 1568,
+    "height": 896
+  },
+  {
     "name": "illustration-tourist-attraction-city",
     "title": "Illustration Tourist Attraction City",
     "src": "wallpapers/pc/illustration-tourist-attraction-city.jpg",
     "category": "PC",
     "height": 3072,
     "width": 5376
+  },
+  {
+    "name": "home127-dark",
+    "title": "Home127 Dark",
+    "src": "wallpapers/pc/home127-dark.jpg",
+    "category": "PC",
+    "height": 1080,
+    "width": 1920
+  },
+  {
+    "name": "hawaii-landscape-with-digital-art-style",
+    "title": "Hawaii Landscape With Digital Art Style",
+    "src": "wallpapers/pc/hawaii-landscape-with-digital-art-style.jpg",
+    "category": "PC",
+    "height": 3584,
+    "width": 5376
+  },
+  {
+    "name": "futuristic-dubai-landscape",
+    "title": "Futuristic Dubai Landscape",
+    "src": "wallpapers/pc/futuristic-dubai-landscape.jpg",
+    "category": "PC",
+    "height": 3584,
+    "width": 5376
+  },
+  {
+    "name": "digital-art-with-urban-landscape-architecture",
+    "title": "Digital Art With Urban Landscape Architecture",
+    "src": "wallpapers/pc/digital-art-with-urban-landscape-architecture.jpg",
+    "category": "PC",
+    "height": 3584,
+    "width": 5376
+  },
+  {
+    "name": "digital-art-with-urban-landscape-architecture(1)",
+    "title": "Digital Art With Urban Landscape Architecture(1)",
+    "src": "wallpapers/pc/digital-art-with-urban-landscape-architecture(1).jpg",
+    "category": "PC",
+    "height": 3584,
+    "width": 5376
+  },
+  {
+    "name": "digital-art-with-urban-landscape-architecture (1)",
+    "title": "Digital Art With Urban Landscape Architecture (1)",
+    "src": "wallpapers/pc/digital-art-with-urban-landscape-architecture%20(1).jpg",
+    "category": "PC",
+    "height": 3584,
+    "width": 5376
+  },
+  {
+    "name": "digital-art-landscape-minimal-background-dhl8o7zd9d0xum91",
+    "title": "Digital Art Landscape Minimal Background Dhl8o7zd9d0xum91",
+    "src": "wallpapers/pc/digital-art-landscape-minimal-background-dhl8o7zd9d0xum91.jpg",
+    "category": "PC",
+    "width": 900,
+    "height": 563
+  },
+  {
+    "name": "denis-istomin-listen-to-your-heart",
+    "title": "Denis Istomin Listen To Your Heart",
+    "src": "wallpapers/pc/denis-istomin-listen-to-your-heart.jpg",
+    "category": "PC",
+    "height": 2160,
+    "width": 3840
   },
   {
     "name": "cozy-cabin-in-the-woods-desktop-wallpaper",
@@ -430,6 +630,14 @@
     "category": "PC",
     "width": 3840,
     "height": 2160
+  },
+  {
+    "name": "cat-silhouette-overlooking-cityscape-night",
+    "title": "Cat Silhouette Overlooking Cityscape Night",
+    "src": "wallpapers/pc/cat-silhouette-overlooking-cityscape-night.jpg",
+    "category": "PC",
+    "height": 3072,
+    "width": 5376
   },
   {
     "name": "backiee-308755-landscape",
@@ -472,6 +680,14 @@
     "width": 3840
   },
   {
+    "name": "backiee-279319-landscape",
+    "title": "Backiee 279319 Landscape",
+    "src": "wallpapers/pc/backiee-279319-landscape.jpg",
+    "category": "PC",
+    "height": 4320,
+    "width": 7680
+  },
+  {
     "name": "backiee-271769-landscape",
     "title": "Backiee 271769 Landscape",
     "src": "wallpapers/pc/backiee-271769-landscape.jpg",
@@ -480,9 +696,25 @@
     "width": 5120
   },
   {
+    "name": "backiee-218163-landscape",
+    "title": "Backiee 218163 Landscape",
+    "src": "wallpapers/pc/backiee-218163-landscape.jpg",
+    "category": "PC",
+    "height": 2880,
+    "width": 5120
+  },
+  {
     "name": "backiee-184861-landscape",
     "title": "Backiee 184861 Landscape",
     "src": "wallpapers/pc/backiee-184861-landscape.jpg",
+    "category": "PC",
+    "height": 2160,
+    "width": 3840
+  },
+  {
+    "name": "backiee-129375-landscape",
+    "title": "Backiee 129375 Landscape",
+    "src": "wallpapers/pc/backiee-129375-landscape.jpg",
     "category": "PC",
     "height": 2160,
     "width": 3840
@@ -654,6 +886,14 @@
     "category": "PC",
     "height": 2160,
     "width": 3840
+  },
+  {
+    "name": "15-Sequoia-Sunrise",
+    "title": "15 Sequoia Sunrise",
+    "src": "wallpapers/pc/15-Sequoia-Sunrise.png",
+    "category": "PC",
+    "width": 3840,
+    "height": 2160
   },
   {
     "name": "1366774",
